@@ -8,7 +8,7 @@
     "keywords": ["hexo", "shokaX", "hitokoto"],
     "repository": {
         "type": "git",
-        "url": "git+http://github.com/noneSycamore/hexo-shoka-hitokoto.git"
+        "url": "git+http://github.com/zixu0779/hexo-shoka-hitokoto.git"
     },
-    "homepage": "https://github.com/noneSycamore/hexo-shoka-hitokoto#readme"
+    "homepage": "https://github.com/zixu0779/hexo-shoka-hitokoto#readme"
 }
