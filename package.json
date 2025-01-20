@@ -1,0 +1,9 @@
+{
+    "name": "hexo-shokax-hitokoto",
+    "version": "0.1.0",
+    "description": "hexo-shokaX 主题页脚插入 hitikoto 一言",
+    "private": "false",
+    "author": "Sycamore",
+    "license": "MIT",
+    "keywords": ["hexo", "shokaX", "hitokoto"]
+}
