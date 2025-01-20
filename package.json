@@ -2,8 +2,13 @@
     "name": "hexo-shokax-hitokoto",
     "version": "0.1.0",
     "description": "hexo-shokaX 主题页脚插入 hitikoto 一言",
-    "private": "false",
     "author": "Sycamore",
+    "main": "hitokoto.js",
     "license": "MIT",
-    "keywords": ["hexo", "shokaX", "hitokoto"]
+    "keywords": ["hexo", "shokaX", "hitokoto"],
+    "repository": {
+        "type": "git",
+        "url": "git+http://github.com/noneSycamore/hexo-shoka-hitokoto.git"
+    },
+    "homepage": "https://github.com/noneSycamore/hexo-shoka-hitokoto#readme"
 }
