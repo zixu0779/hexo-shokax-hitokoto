@@ -1,8 +1,8 @@
-div(style="width: 100%;text-align:center;")
-    if theme.hitokoto
-        span(id="sentences-content")
+if theme.hitokoto
+    div(style="width: 100%;text-align:center;")
+        span(id="sentences-content", style="color: #ebb563;")
             != '一言...'
-        != ' | '
+    div(style="width: 100%;text-align:center;")
         span(id="sentences-from")
             != '來源'
         script(type="text/javascript").
@@ -12,6 +12,6 @@ div(style="width: 100%;text-align:center;")
                 var content = document.getElementById('sentences-content');
                 content.innerText = data.hitokoto
                 var from = document.getElementById('sentences-from');
-                from.innerText = data.from + (data.from_who ? ' · ' + data.from_who : '')
+                from.innerText = data.from + (data.from_who && data.from_who != data.from ? ' · ' + data.from_who : '')
             })
             .catch(console.error)
