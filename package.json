@@ -1,6 +1,6 @@
 {
     "name": "hexo-shokax-hitokoto",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "hexo-shokaX 主题页脚插入 hitikoto 一言",
     "author": "Sycamore",
     "main": "hitokoto.js",
